@@ -1,0 +1,53 @@
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; 
+}
+
+.message-contents {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    align-items: center; 
+    background-color: #f2f2f2;
+}
+.header{
+    background-color: #f2f2f2;
+    width: 100%;
+}
+.header h3{
+    margin-left: 15px;
+}
+.chats{
+    width: 100%;
+}
+.chats-container{
+    height: 80px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+}
+.chats-container img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.driver-message{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.driver-message h4{
+    margin-bottom: 5px;
+    margin-top: 17px;
+}
+.driver-message p{
+    margin-top: 0;
+}

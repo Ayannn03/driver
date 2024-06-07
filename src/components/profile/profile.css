@@ -1,0 +1,38 @@
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; 
+}
+
+.profile-contents {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    align-items: center; 
+    background-color: #f2f2f2;
+}
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: lightblue;
+}
+.profile-container h2{
+    margin-left: 20px;
+}
+.account {
+    display:  flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 40px;
+}
+.myAccount li,
+.settings li{
+    list-style: none;
+    margin-bottom: 15px;
+}

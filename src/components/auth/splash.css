@@ -1,0 +1,35 @@
+.splash {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; 
+  }
+  
+.splash-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+.splash-content h1 {
+    margin-bottom: 300px;
+    text-align: center;
+}
+.splash-buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
